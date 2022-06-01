@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="screen"><img id="screenimage" src="images/bir.jpg"></div>
+
+    <div id="container">
+    <button onclick="showme()"><img id="bir" class="mini" src="images/bir.jpg"></button>
+    <button onclick="showme2()"><img id="iki" class="mini" src="images/iki.jpg"></button>
+    <button onclick="showme3()"><img id="uc" class="mini" src="images/uc.jpg"></button>
+   
+    </div>
+
+    <p>Click the photos to see them in big screen</p>
+
+
+</body>
+
+<script>
+
+function showme() {
+
+document.getElementById("screenimage").src = "images/bir.jpg"
+
+}
+
+function showme2() {
+
+document.getElementById("screenimage").src = "images/iki.jpg"
+
+}
+
+function showme3() {
+
+document.getElementById("screenimage").src = "images/uc.jpg"
+
+}
+
+
+
+
+
+</script>
+</html>
